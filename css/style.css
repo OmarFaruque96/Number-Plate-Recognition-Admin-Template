@@ -18,14 +18,15 @@ body {
 }
 /* title section css here*/
 .site-title{
-	width: 100%;
   	background: linear-gradient(45deg, #27dbe9, #e3e67d);
 	/*padding: 320px 0;*/
 	text-align: center;
 	height: 100vh;
+    display: table-cell;
+    width: 100vw;
+    vertical-align: middle 
 }
 .title{
-	margin-top: 200px;
 }
 .site-title h1{
 	color: white;
